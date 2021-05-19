@@ -53,3 +53,7 @@ chown -R --reference=. ./dist/windows
 # else
     # sh -c "$@"
 # fi # [[ "$@" == "" ]]
+mathlibtools/dist/windows/leanproject.exe
+echo %cd%
+dir
+cd
